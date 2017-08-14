@@ -23,11 +23,7 @@
 
   <!-- SLIDE -->
   <div id="carousel_1" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel_1" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel_1" data-slide-to="1"></li>
-    </ol>
-
+    <!-- IMAGENES -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="images/slide1.png" width="100%" class="img-responsive">
@@ -36,8 +32,17 @@
         <img src="images/slide2.png" width="100%" class="img-responsive">
       </div>
     </div>
-    <img src="images/renglon.png" width="100%" class="img-responsive">
+    <!-- CONTROLES -->
+    <a class="left carousel-control" href="#carousel_1" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel_1" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
+  <img src="images/renglon.png" width="100%" class="img-responsive">
 
   <!-- TITULO -->
   <div class="titulo" align=center>
@@ -51,6 +56,7 @@
       <p class="numPasos">1. Registrate</p>
       <p class="desPasos">Crea tu Visa Checkout <br> e ingresa tu información</p>
     </div>
+
     <div class="col-lg-2 col-md-2  col-sm-12 col-xs-12">
       <br class=" hidden-xs hidden-sm">
       <br class=" hidden-xs hidden-sm">
@@ -59,6 +65,7 @@
       <br class=" hidden-xs hidden-sm">
       <img width="35%" src="images/flecha.png" class="hidden-xs hidden-sm flecha">
     </div>
+
     <div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">
       <img width="35%" src="images/pedido.png" class="img-responsive">
       <p class="numPasos">2. Comienza a pedir</p>
