@@ -17,10 +17,6 @@ body {
   font-size: 3em;
 }
 
-.logo{
-  width: 25%
-}
-
 .numPasos{
   font-family: 'Open Sans', sans-serif;
   font-size: 4em;
@@ -33,15 +29,10 @@ body {
   color: #666666
 }
 
-.flecha{
-  left: 50%;
-  top: 50%;
-}
 @media (max-width: 500px) {
    .numPasos { font-size: 2em; }
    .desPasos { font-size:1em; }
    .titulo { font-size: 1.5em; }
-   .logo {width: 35%}
 }
 
 
